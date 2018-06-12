@@ -7,6 +7,12 @@
 
         <title>E-Commerce</title>
 
+        <link href = "https://fonts.googeapis.com/css?family=Montserrat|Roboto:300,400,700" rel = "Stylesheet">
+        <link rel="stylesheet" href = "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <link rel="stylesheet" href="{{ asset ('css/app.css') }}">
+        <link rel="stylesheet" href="{{ asset ('css/responsive.css') }}">
+
        
     </head>
     <body>
@@ -158,5 +164,11 @@
                 </div>
                     {{-- End of container --}}
             </div>
+
+            <footer>
+                <div class="footer-content container">
+                    <div class="made-with">Made with <i class= "fa fa heart"> By HNL </i></div>
+                </div>
+            </footer>
     </body>
 </html>
