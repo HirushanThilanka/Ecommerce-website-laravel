@@ -5,91 +5,158 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel</title>
+        <title>E-Commerce</title>
 
-        <!-- Fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
-
-        <!-- Styles -->
-        <style>
-            html, body {
-                background-color: #fff;
-                color: #636b6f;
-                font-family: 'Raleway', sans-serif;
-                font-weight: 100;
-                height: 100vh;
-                margin: 0;
-            }
-
-            .full-height {
-                height: 100vh;
-            }
-
-            .flex-center {
-                align-items: center;
-                display: flex;
-                justify-content: center;
-            }
-
-            .position-ref {
-                position: relative;
-            }
-
-            .top-right {
-                position: absolute;
-                right: 10px;
-                top: 18px;
-            }
-
-            .content {
-                text-align: center;
-            }
-
-            .title {
-                font-size: 84px;
-            }
-
-            .links > a {
-                color: #636b6f;
-                padding: 0 25px;
-                font-size: 12px;
-                font-weight: 600;
-                letter-spacing: .1rem;
-                text-decoration: none;
-                text-transform: uppercase;
-            }
-
-            .m-b-md {
-                margin-bottom: 30px;
-            }
-        </style>
+       
     </head>
     <body>
-        <div class="flex-center position-ref full-height">
-            @if (Route::has('login'))
-                <div class="top-right links">
-                    @auth
-                        <a href="{{ url('/home') }}">Home</a>
-                    @else
-                        <a href="{{ route('login') }}">Login</a>
-                        <a href="{{ route('register') }}">Register</a>
-                    @endauth
-                </div>
-            @endif
+        <header>
+            <div class="top-nav-container">
+                <div class="logo">E-Commenrce</div>
+                    <ul>
 
-            <div class="content">
-                <div class="title m-b-md">
-                    Laravel
-                </div>
+                        <li><a href="#">Shop</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Cart</a></li>
 
-                <div class="links">
-                    <a href="https://laravel.com/docs">Documentation</a>
-                    <a href="https://laracasts.com">Laracasts</a>
-                    <a href="https://laravel-news.com">News</a>
-                    <a href="https://forge.laravel.com">Forge</a>
-                    <a href="https://github.com/laravel/laravel">GitHub</a>
-                </div>
+                    </ul>
             </div>
+             {{-- top nav eend --}}
+            <div class="hero-container">
+                <div class="hero-copy">
+
+                    <h1> E-Commerce Website</h1>
+                    <p> This is a demo site </p>
+                    <div class="hero-button">
+                        <a href="#" class = "button white button">Order</a>
+                        <a href="#" class = "button white button">Order 1</a>
+                    </div>
+                    <div class="hero-image">
+                        <img src="img/laptop.png" alt="Buy Laptops">
+                    </div>
+                </div> 
+                {{-- End of hero hero-container --}}
+            </div> 
+        </header>
+        <div class="featured-selection">
+            <div class="container">
+                <h1 class = "text-center" > Shopping List </h1>
+                <p Class = "section-description">  This is the description of the product that your going to by </p>
+
+                <div class="text-center-button-container">
+                    <a href="#" class = "button">Featured</a>
+                    <a href="#" class = "button">On Sale</a>
+                </div>
+            
+
+            <div class="product-text-center">
+                <div class="product">
+                    <img src="img/laptop-grid.png" alt="Buy Laptop">
+                    <a href="#" class = "product-name"> MSI Laptop</a>
+                    <div class = "product-price"> $899</div>
+
+                </div>
+
+                <div class="product">
+                    <img src="img/laptop-grid.png" alt="Buy Laptop">
+                    <a href="#" class = "product-name"> MSI Laptop</a>
+                    <div class = "product-price"> $899</div>
+
+                </div>
+
+                <div class="product">
+                    <img src="img/laptop-grid.png" alt="Buy Laptop">
+                    <a href="#" class = "product-name"> MSI Laptop</a>
+                    <div class = "product-price"> $899</div>
+
+                </div>
+
+                <div class="product">
+                    <img src="img/laptop-grid.png" alt="Buy Laptop">
+                    <a href="#" class = "product-name"> MSI Laptop</a>
+                    <div class = "product-price"> $899</div>
+
+                </div>
+
+                <div class="product">
+                    <img src="img/laptop-grid.png" alt="Buy Laptop">
+                    <a href="#" class = "product-name"> MSI Laptop</a>
+                    <div class = "product-price"> $899</div>
+
+                </div>
+
+                <div class="product">
+                        <img src="img/laptop-grid.png" alt="Buy Laptop">
+                        <a href="#" class = "product-name"> MSI Laptop</a>
+                        <div class = "product-price"> $899</div>
+    
+                </div>
+
+                    <div class="product">
+                        <img src="img/laptop-grid.png" alt="Buy Laptop">
+                        <a href="#" class = "product-name"> MSI Laptop</a>
+                        <div class = "product-price"> $899</div>
+    
+                </div>
+
+                    <div class="product">
+                        <img src="img/laptop-grid.png" alt="Buy Laptop">
+                        <a href="#" class = "product-name"> MSI Laptop</a>
+                        <div class = "product-price"> $899</div>
+    
+                </div>
+
+                    <div class="product">
+                        <img src="img/laptop-grid.png" alt="Buy Laptop">
+                        <a href="#" class = "product-name"> MSI Laptop</a>
+                        <div class = "product-price"> $899</div>
+    
+                </div>
+
+                    <div class="product">
+                        <img src="img/laptop-grid.png" alt="Buy Laptop">
+                        <a href="#" class = "product-name"> MSI Laptop</a>
+                        <div class = "product-price"> $899</div>
+    
+                </div>
+            
+            </div>
+
+            <div class="text-center button-container">
+                    <a href="#" class="button"> View more Products </a>
+            </div>
+
+            </div>
+                {{-- end container --}}
         </div>
+            {{-- End feature --}}
+
+            <div class="blog-section">
+                <div class="container">
+                    <h1 class = "text-container"> From Our blog</h1>
+
+                    <p class="Section-description"> This is blog section. add what you want </p>
+                    <div class="blog-posts">
+                        <div class="blog-post">
+                            <img src="img/blog.png" alt="Blog Post">
+                            <a href="#"><h2 class="blog-title">blog post tile 1</h2></a>
+                            <div class="blog-description">type anything suitable</div>
+                        </div>
+                    <div class="blog-post">
+                            <img src="img/blog.png" alt="Blog Post">
+                            <a href="#"><h2 class="blog-title">blog post tile 1</h2></a>
+                            <div class="blog-description">type anything suitable</div>
+                        </div>
+                    <div class="blog-post">
+                            <img src="img/blog.png" alt="Blog Post">
+                            <a href="#"><h2 class="blog-title">blog post tile 1</h2></a>
+                            <div class="blog-description">type anything suitable</div>
+                        </div>
+                    </div>
+                    {{-- end of blog section --}}
+                </div>
+                    {{-- End of container --}}
+            </div>
     </body>
 </html>
