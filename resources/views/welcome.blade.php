@@ -16,7 +16,9 @@
        
     </head>
     <body>
+        
         <header>
+            
             <div class="top-nav-container">
                 <div class="logo">E-Commenrce</div>
                     <ul>
@@ -45,6 +47,7 @@
                 {{-- End of hero hero-container --}}
             </div> 
         </header>
+        
         <div class="featured-selection">
             <div class="container">
                 <h1 class = "text-center" > Shopping List </h1>

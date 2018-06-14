@@ -41,3 +41,27 @@ h1 {
     font-size: 30px;
     margin-bottom: 40px;
 }
+
+h2 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+img {
+    max-width: 100%;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+header {
+    background: url("../../../public/img/header.png");
+    background-size: cover;
+    color: white;
+}
