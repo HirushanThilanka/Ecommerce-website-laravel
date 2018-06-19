@@ -11,7 +11,9 @@
         <link rel="stylesheet" href = "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
         <link rel="stylesheet" href="{{ asset ('css/app.css') }}">
+        <link rel="stylesheet" href="{{ asset ('css/mycss.scss') }}">
         <link rel="stylesheet" href="{{ asset ('css/responsive.css') }}">
+        
 
        
     </head>
@@ -173,5 +175,7 @@
                     <div class="made-with">Made with <i class= "fa fa heart"> By HNL </i></div>
                 </div>
             </footer>
+        
     </body>
 </html>
+
