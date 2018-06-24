@@ -116,6 +116,7 @@
     }
     
     ul {
+        list-style-type: none;
         display: flex;
         text-transform: uppercase;
         justify-content: space-between;
