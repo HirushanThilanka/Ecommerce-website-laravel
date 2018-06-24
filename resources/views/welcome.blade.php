@@ -11,7 +11,7 @@
         <link rel="stylesheet" href = "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
         <link rel="stylesheet" href="{{ asset ('css/app.css') }}">
-        <link rel="stylesheet" href="{{ asset ('css/mycss.scss') }}">
+        <link rel="stylesheet" href="{{ asset ('css/responsive.css') }}">
         <link rel="stylesheet" href="{{ asset ('css/responsive.css') }}">
         
 
@@ -21,7 +21,7 @@
         
         <header>
             
-            <div class="top-nav-container">
+            <div class="top-nav-container container">
                 <div class="logo">E-Commenrce</div>
                     <ul>
 
@@ -33,21 +33,21 @@
                     </ul>
             </div>
              {{-- top nav eend --}}
-            <div class="hero-container">
+            <div class="hero container">
                 <div class="hero-copy">
 
                     <h1> E-Commerce Website</h1>
                     <p> This is a demo site </p>
                     <div class="hero-button">
-                        <a href="#" class = "button white button">Order</a>
-                        <a href="#" class = "button white button">Order 1</a>
+                        <a href="#" class = "button-white button">Order</a>
+                        <a href="#" class = "button-white button">Order 1</a>
                     </div>
+                </div>
                     <div class="hero-image">
                         <img src="img/laptop.png" alt="Buy Laptops">
                     </div>
                 </div> 
-                {{-- End of hero hero-container --}}
-            </div> 
+                {{-- End of hero hero-container --}} 
         </header>
         
         <div class="featured-selection">
@@ -55,13 +55,13 @@
                 <h1 class = "text-center" > Shopping List </h1>
                 <p Class = "section-description">  This is the description of the product that your going to by </p>
 
-                <div class="text-center-button-container">
+                <div class="text-center button-container">
                     <a href="#" class = "button">Featured</a>
                     <a href="#" class = "button">On Sale</a>
                 </div>
             
 
-            <div class="product-text-center">
+            <div class="products text-center">
                 <div class="product">
                     <img src="img/laptop-grid.png" alt="Buy Laptop">
                     <a href="#" class = "product-name"> MSI Laptop</a>
