@@ -11,7 +11,7 @@
         <link rel="stylesheet" href = "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
         <link rel="stylesheet" href="{{ asset ('css/app.css') }}">
-        <link rel="stylesheet" href="{{ asset ('css/responsive.css') }}">
+        <link rel="stylesheet" href="{{ asset ('css/landingPage.css') }}">
         <link rel="stylesheet" href="{{ asset ('css/responsive.css') }}">
         
 

@@ -28,6 +28,14 @@
         color: #212121;
     }
     
+    .top-nav-container a {
+        color: white !important;
+    }
+    
+    .top-nav-container a:hover {
+        color: gray !important;
+    }
+    
     a:visited {
         color: #212121;
     }
@@ -99,7 +107,7 @@
     } */
     
     header {
-        background: url('/img/header.png');
+        background: url('/img/triangles.svg');
         background-size: cover;
         color: white;
     }
@@ -163,7 +171,7 @@
     .products {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
-        grid-gap: $gutter;
+        grid-gap: 30px;
     }
     
     .product-name {
